@@ -1,5 +1,5 @@
 import { checkIfSass, toBulmaVariables, enableSassTheming } from './sass-loader'
-import { Theme } from '@hungry/bulma-styled-theme'
+import { theme } from '@hungry/bulma-theme'
 
 test('check if sass', () => {
   const sassExtension = checkIfSass({ test: '.sass' })
