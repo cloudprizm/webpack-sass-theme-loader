@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`convert to sass variables 1`] = `
+Object {
+  "black": "#000",
+  "has-sth": true,
+  "size-1": 10,
+  "width": 10,
+}
+`;
