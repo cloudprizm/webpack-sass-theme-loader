@@ -9,7 +9,10 @@
     "archetype:update": "spell new library"
   },
   "dependencies": {
-    "@hungry/bulma-theme": "~0.0.1"
+    "@hungry/bulma-theme": "~0.0.1",
+    "ramda": "^0.26.1",
+    "@hungry/webpack-parts": "^0.1.1",
+    "decamelize": "^2.0.0"
   },
   "peerDependencies": {
     "@epegzz/sass-vars-loader": "^4.0.0"
