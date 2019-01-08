@@ -2,7 +2,7 @@
 ===
 
 This library has 3 goals
-* running and passing `@hungry/bulma-theme` to `sass-var-loader`
+* running and passing [`@hungry/bulma-theme`](https://github.com/hungry-consulting/bulma-theme) to [`sass-var-loader`](https://github.com/epegzz/sass-vars-loader)
 * detecting automatically `sass` rule within `webpack` config and inject it into the correct place
 * `decamelize` all `theme` variables and transform theme before applying it to `sass-var-loader`
 
@@ -19,7 +19,7 @@ To apply on webpack config object you need to provide `theme` and `config` like 
 ```
 
 #### Custom theme from scratch
-Follow `@hungry/bulma-theme` - provide similar interface, this is `type RunnableTheme = Reader<InjectedMethods, BulmaTheme>` or just `reader.of({/* your camelcased variables */})`
+Follow [`@hungry/bulma-theme`](https://github.com/hungry-consulting/bulma-theme/blob/master/src/runnable-theme.ts) - provide similar interface, this is `type RunnableTheme = Reader<InjectedMethods, BulmaTheme>` or just `reader.of({/* your camelcased variables */})`
 
 ### Implementation details
 [`@hungry/bulma-theme`](https://github.com/hungry-consulting/bulma-theme) is a `wrapped function` by [`Reader monad`](https://github.com/gcanti/fp-ts/blob/master/test/Reader.ts) - which provide ability to `mapping` and `chaining`.
