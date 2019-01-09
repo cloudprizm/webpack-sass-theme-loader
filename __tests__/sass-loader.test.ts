@@ -1,4 +1,4 @@
-import { checkIfSass, toBulmaVariables, enableSassTheming } from './sass-loader'
+import { checkIfSass, toBulmaVariables, enableSassTheming } from '../src/sass-loader'
 import { theme } from '@hungry/bulma-theme'
 
 test('check if sass', () => {
