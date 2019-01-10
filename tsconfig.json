@@ -31,7 +31,7 @@
     "node_modules"
   ],
   "typedocOptions": {
-    "mode": "file",
+    "mode": "modules",
     "out": "docs",
     "theme": "minimal",
     "composite": true,
