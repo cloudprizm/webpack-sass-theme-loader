@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/hungry-consulting/webpack-sass-theme-loader
+	branch = master
+	commit = e7b751b32370eadc4d7bb2a30285a98564c3537b
+	method = merge
+	cmdver = 0.4.0
+	parent = 0d9e17a6483740ee31ed14f42bb0cf68bed3b4da
