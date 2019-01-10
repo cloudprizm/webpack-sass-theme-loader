@@ -33,7 +33,6 @@
   "typedocOptions": {
     "mode": "modules",
     "out": "docs",
-    "theme": "minimal",
     "composite": true,
     "ignoreCompilerErrors": true,
     "excludePrivate": true,
