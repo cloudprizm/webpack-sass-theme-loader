@@ -6,6 +6,8 @@ This library has 3 goals
 * detecting automatically `sass` rule within `webpack` config and inject it into the correct place
 * `decamelize` all `theme` variables and transform theme before applying it to `sass-var-loader`
 
+[Docs](https://hungry-consulting.github.io/webpack-sass-theme-loader/index.html)
+
 ### How to use
 
 #### Using with  `@hungry/bulma-theme`
